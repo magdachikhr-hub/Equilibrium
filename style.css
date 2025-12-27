@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+main {
+  background-color: #0d192c;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.card {
+  width: 350px;
+  height: 596px;
+  background-color: #15263f;
+  border-radius: 15px;
+  padding: 24px 24px 32px 24px;
+}
+
+img.cube {
+  margin-bottom: 24px;
+}
+
+h1 {
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+p.description {
+  font-size: 18px;
+  font-weight: 300;
+  color: #8bacd9;
+  margin: 16px 0 24px 0;
+}
+div.parent {
+  display: flex;
+  gap: 109.82px;
+}
+
+span.green_text {
+  color: #00fff8;
+}
+
+time {
+  color: #8bacd9;
+}
+
+div.etherium {
+  display: flex;
+  align-items: center;
+  gap: 6.48px;
+}
+
+div.time {
+  display: flex;
+  align-items: center;
+  gap: 9.03px;
+}
+
+div.line {
+  height: 1px;
+  background-color: #2e405a;
+  margin: 24px 0 16px 0;
+}
+div.author {
+  display: flex;
+  gap: 16px;
+}
+
+div.author_name {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+p.creation_of {
+  color: #8bacd9;
+}
+
+span.name {
+  color: white;
+}
